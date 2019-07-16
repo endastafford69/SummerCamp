@@ -2,6 +2,8 @@
 install.packages(c("devtools", "rjson", "bit64", "httr", "plyr", "ggplot2", "doBy", "XML"))
 install.packages("rvest")
 install.packages("rtweet")
+install.packages("stringr")
+install.packages("plyr")
 
 #devtools allows us to install from github
 library(devtools)
@@ -9,6 +11,7 @@ library("rvest")
 library(tm)
 ## load rtweet package
 library(rtweet)
+library(stringr)
 
 
 ###############################
